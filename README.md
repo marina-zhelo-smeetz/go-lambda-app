@@ -23,7 +23,7 @@ go-lambda-app
 
 1. **Clone the repository:**
    ```
-   git clone https://github.com/yourusername/go-lambda-app.git
+   git clone https://github.com/marina-zhelo-smeetz/go-lambda-app.git
    cd go-lambda-app
    ```
 
@@ -33,7 +33,10 @@ go-lambda-app
    ```
 
 3. **Deploy to AWS Lambda:**
-   Follow the AWS documentation to deploy your Go application as a Lambda function.
+
+1. **Build the Go executable:**
+   ```sh
+   GOOS=linux GOARCH=amd64 go build -o main main.go
 
 ## Usage
 
